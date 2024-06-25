@@ -1,7 +1,10 @@
-const adventurer = {
-    name: "Robin",
-    health: 10,
-    inventory: ["sword", "potion", "artifact"]
+class Animals {
+    constructor(name, weight, height){
+        this.name = name;
+        this.weight = weight;
+        this.height = height;
     }
-
-    
+    dispaly(){
+        return[this.name, this.weight, this.height];
+    }
+}
